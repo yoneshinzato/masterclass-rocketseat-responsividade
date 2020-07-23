@@ -7,12 +7,21 @@
   outline: 0;
 }
 
+html {
+  font-size: 62.5%;
+  /* a cada 1rem será considerado 10px */
+}
+
 html,
 body {
   height: 100vh;
   font-family: "Source Sans Pro";
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
 }
 
 header {
@@ -23,8 +32,8 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  width: 980px;
+  max-width: 980px;
+  width: 90%;
   margin: auto;
 }
 
@@ -36,17 +45,19 @@ header img {
 
 header nav ul {
   display: flex;
+  
 }
 
 header nav ul li {
   list-style: none;
+  
 }
 
 header nav ul li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1.4rem;
   padding: 24px;
   transition: all 250ms linear 0s;
 }
@@ -57,19 +68,19 @@ header nav ul li a:hover {
 
 h2 {
   color: rgb(75, 75, 75);
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
 }
 
 h3 {
   color: rgb(75, 75, 75);
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 }
 
 .button {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
   background-color: rgb(113, 89, 193);
@@ -93,7 +104,8 @@ section.hero {
 }
 
 section.hero .container {
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
   margin: auto;
 
   display: flex;
@@ -101,8 +113,8 @@ section.hero .container {
 
 section.hero p {
   color: rgb(154, 142, 191);
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
   margin: 10px 0px 0px;
 }
 
@@ -118,7 +130,8 @@ main {
 CARDS
 ==================*/
 .cards {
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
   margin: auto;
 
   display: grid;
@@ -242,8 +255,8 @@ MODAL
   transition-delay: 0.3s;
 }
 .modal .close-modal svg {
-  width: 18px;
-  height: 18px;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 .modal .modal-content {
   opacity: 0;
@@ -300,7 +313,8 @@ FORM
 }
 
 #form form {
-  width: 980px;
+   width: 90%;
+  max-width: 980px;
   background: white;
   
   padding: 40px;
