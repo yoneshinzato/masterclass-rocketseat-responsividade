@@ -140,8 +140,8 @@ CARDS
 }
 
 .text--medium {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem
+  line-height: 2.6rem;
   font-weight: 400;
   color: #ecf0f1;
 }
@@ -348,7 +348,7 @@ FORM
   display: block;
   margin: -4px 8px 10px;
   padding: 12px;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 #form .button {
